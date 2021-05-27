@@ -61,7 +61,6 @@ secondo-lh = {
   \new StaffGroup <<
     \new PianoStaff \with {
       instrumentName = #"Primo"
-      shortInstrumentName = #"Primo"
     } <<
       \new Staff = "up" {
         \primo-rh
@@ -73,7 +72,6 @@ secondo-lh = {
     >>
     \new PianoStaff \with {
       instrumentName = #"Secondo"
-      shortInstrumentName = #"Secondo"
     } <<
       \new Staff = "up" {
         \secondo-rh
