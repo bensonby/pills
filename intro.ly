@@ -17,12 +17,28 @@ intro-primo-rh = \relative c'' {
   b8 fis' r fis~ fis4 b,8 b~
   b2\) r2
   R1
+
+  \key d \major
+  \repeat unfold 7 {
+    a8 d a' e~ e d a' e
+  }
+  a,8 d a' e s2
 }
 
 intro-primo-lh = \relative c'' {
   \clef treble
   r4
   R1*15 e1
+
+  \key d \major
+  \ottava #1
+  \repeat unfold 15 {
+    \tuplet 3/2 4 { b'8 d e a e d }
+  }
+  \tuplet 3/2 4 {
+    e8 d b \cr fis' e d \cl
+  }
+  \ottava #0
 }
 
 intro-secondo-rh = \relative c {
@@ -45,6 +61,9 @@ intro-secondo-rh = \relative c {
   q1
   <g b fis'>1~
   q1
+
+  \key d \major
+  R1*8 % TODO
 }
 
 intro-secondo-lh = \relative c {
@@ -66,4 +85,14 @@ intro-secondo-lh = \relative c {
   fis,
   e~
   e
+
+  \key d \major
+  b''1
+  g'
+  \parenthesize a
+  d,2 cis
+  b1
+  g'
+  \parenthesize a
+  d,2 cis
 }
