@@ -33,15 +33,28 @@ midiPan = #0.2 % affecting whole midi output, value from -1 to 1
 }
 
 primo-rh = {
+  \tempo "Fast Swing" 4 = 182
+  \key b \major
+  \time 4/4
+  \partial 4
   \intro-primo-rh
 }
 primo-lh = {
+  \key b \major
+  \time 4/4
+  \partial 4
   \intro-primo-lh
 }
 secondo-rh = {
+  \key b \major
+  \time 4/4
+  \partial 4
   \intro-secondo-rh
 }
 secondo-lh = {
+  \key b \major
+  \time 4/4
+  \partial 4
   \intro-secondo-lh
 }
 \score {
